@@ -1,8 +1,8 @@
 #include "Fletcher16.h"
 
 Fletcher16::Fletcher16(){
-    this->_C0 = 0;
-    this->_C1 = 0;
+    _C0 = 0;
+    _C1 = 0;
 }
 
 uint8_t Fletcher16::get_first_checksum() const{
